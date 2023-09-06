@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		68E4936DD89840448FE296F6 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B78247CC6CB5412880F0E5E1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D2B5D5BE79B95A8F7D7E0974 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A75273A7DB464361B8832B8B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0B898E0AE3D24C2BA1C345B8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				540650424FC1531EA973B2CA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				CEE953BAAD1D4D3A815C88AE /* PBXTargetDependency */,
+				8C19B983FC294FD4BB5E41FE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B9AA84011B80402D93107212 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7E3CAE5D8A8E47FAB8EED0A8 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				0E77963EB2A341BB97D8F523 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		472C3419E6BC445CB77C7E73 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/glxew.h */ = {isa = PBXBuildFile; fileRef = 60A530600D2D4F69B841374B /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/glxew.h */; };
+		99D840B2C77E4966B353B640 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/src/glew.c */ = {isa = PBXBuildFile; fileRef = 7D79033CBC0540AD82A68E1A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/src/glew.c */; };
+		A078B139449849D1BCEB5375 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/glew.h */ = {isa = PBXBuildFile; fileRef = 9E64C1AE490B4B6BA5A22F53 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/glew.h */; };
+		CFC5023F7DFE45D78BE0B287 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/wglew.h */ = {isa = PBXBuildFile; fileRef = B469DE30D8BF4E788ADD2937 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/wglew.h */; };
+		E88A4D02668E440E8EB2C275 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4A5CFFA4A35E4E98A0B09832 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3BA1183D310A49E8924F1783 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		427107D60CB7441AA4D97792 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		5FA3D1D85708430E8F2045EA /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		CAD0FA18D7DF4583A76F6380 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		006AC2BC15844E43886A3488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D9435BB1294D158C7615D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEABAB52E9934D4FB370C251;
+			remoteInfo = glew;
+		};
+		1A19C38FE4F9437DA9B5F7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D9435BB1294D158C7615D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E4936DD89840448FE296F6;
+			remoteInfo = ZERO_CHECK;
+		};
+		4D336EC0A2ED4A45ABF8C04A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D9435BB1294D158C7615D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E4936DD89840448FE296F6;
+			remoteInfo = ZERO_CHECK;
+		};
+		D776D453A85F42609AB582B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D9435BB1294D158C7615D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75273A7DB464361B8832B8B;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A5CFFA4A35E4E98A0B09832 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		60A530600D2D4F69B841374B /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/glxew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glxew.h; path = include/GL/glxew.h; sourceTree = SOURCE_ROOT; };
+		612568FB662746A18610CBCA /* glew */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglew.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D79033CBC0540AD82A68E1A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = src/glew.c; sourceTree = SOURCE_ROOT; };
+		9E64C1AE490B4B6BA5A22F53 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/glew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glew.h; path = include/GL/glew.h; sourceTree = SOURCE_ROOT; };
+		B469DE30D8BF4E788ADD2937 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/wglew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wglew.h; path = include/GL/wglew.h; sourceTree = SOURCE_ROOT; };
+		BFF9212299694EAA9C4762B3 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB8A73AEB3434E76928CB843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3191447C234CCA9ED87E34 /* glew */ = {
+			isa = PBXGroup;
+			children = (
+				4E3F064E89854B6DAE07DD3E /* Header Files */,
+				D6B89826A7F64D7D83CAF330 /* Source Files */,
+				4A5CFFA4A35E4E98A0B09832 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/CMakeLists.txt */,
+			);
+			name = glew;
+			sourceTree = "<group>";
+		};
+		4E3F064E89854B6DAE07DD3E /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E64C1AE490B4B6BA5A22F53 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/glew.h */,
+				60A530600D2D4F69B841374B /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/glxew.h */,
+				B469DE30D8BF4E788ADD2937 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include/GL/wglew.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6A2D6B67BC0842CDAD96FAD9 /* GLEW */ = {
+			isa = PBXGroup;
+			children = (
+				1C3191447C234CCA9ED87E34 /* glew */,
+			);
+			name = GLEW;
+			sourceTree = "<group>";
+		};
+		6AB74D7CED1449749A1B4260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				612568FB662746A18610CBCA /* glew */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8212835C1A7849699CD77AAF = {
+			isa = PBXGroup;
+			children = (
+				6A2D6B67BC0842CDAD96FAD9 /* GLEW */,
+				AC39BBB6D67B467EBE814EE2 /* ALL_BUILD */,
+				6AB74D7CED1449749A1B4260 /* Products */,
+				D88ECC40585F4AF79712D83D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A00A867942D14ED4ACB8B24F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AC39BBB6D67B467EBE814EE2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A00A867942D14ED4ACB8B24F /* CMake Rules */,
+				BFF9212299694EAA9C4762B3 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D6B89826A7F64D7D83CAF330 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D79033CBC0540AD82A68E1A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D88ECC40585F4AF79712D83D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEABAB52E9934D4FB370C251 /* glew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0000BEAFA432430FACA8110D /* Build configuration list for PBXNativeTarget "glew" */;
+			buildPhases = (
+				9E1DDAD7133545F7BBB4F8DF /* Sources */,
+				DB8A73AEB3434E76928CB843 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89EF719A8D534763A310B238 /* PBXTargetDependency */,
+			);
+			name = glew;
+			productName = glew;
+			productReference = 612568FB662746A18610CBCA /* glew */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42D9435BB1294D158C7615D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 85785F749C354BA99FF288F8 /* Build configuration list for PBXProject "GLEW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				427107D60CB7441AA4D97792 /* Debug */,
+				3BA1183D310A49E8924F1783 /* Release */,
+				5FA3D1D85708430E8F2045EA /* MinSizeRel */,
+				CAD0FA18D7DF4583A76F6380 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8212835C1A7849699CD77AAF;
+			projectDirPath = "/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0";
+			projectRoot = "";
+			targets = (
+				A75273A7DB464361B8832B8B /* ALL_BUILD */,
+				68E4936DD89840448FE296F6 /* ZERO_CHECK */,
+				CEABAB52E9934D4FB370C251 /* glew */,
+				B9AA84011B80402D93107212 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		540650424FC1531EA973B2CA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D2B5D5BE79B95A8F7D7E0974 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  make -f /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  make -f /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  make -f /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0
+  make -f /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glew-1.10.0/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E1DDAD7133545F7BBB4F8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D840B2C77E4966B353B640 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E77963EB2A341BB97D8F523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75273A7DB464361B8832B8B /* ALL_BUILD */;
+			targetProxy = D776D453A85F42609AB582B1 /* PBXContainerItemProxy */;
+		};
+		89EF719A8D534763A310B238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E4936DD89840448FE296F6 /* ZERO_CHECK */;
+			targetProxy = 4D336EC0A2ED4A45ABF8C04A /* PBXContainerItemProxy */;
+		};
+		8C19B983FC294FD4BB5E41FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEABAB52E9934D4FB370C251 /* glew */;
+			targetProxy = 006AC2BC15844E43886A3488 /* PBXContainerItemProxy */;
+		};
+		CEE953BAAD1D4D3A815C88AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E4936DD89840448FE296F6 /* ZERO_CHECK */;
+			targetProxy = 1A19C38FE4F9437DA9B5F7EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09D8063523264750A0ADC79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1B787595E5EB463C966464C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build;
+			};
+			name = Release;
+		};
+		29F6ABA9E80A43E6A213007E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3D73122CC4EA414DAF9F6606 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include,"/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		545292C437E94424B5D2B38D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		54B2DA4019CA44C89A20892D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build;
+			};
+			name = MinSizeRel;
+		};
+		60F15312A9604BA5BD41DB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6380F41E4224419AAF7539BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/bin/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include,"/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		66CD7A57FEE54145976F5187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		67195E9FD4D240FB8D1E0994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		73B9110D1EE444AD830D9F56 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		7CE8179E8F96436297832E0B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9322A8C6DD884FA38D3C87FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build;
+			};
+			name = Debug;
+		};
+		ADA71A803D17467E866A953A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include,"/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AE41A3F6E31E4C4FA8B8BD9C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B1F26B56F4524C5E977ADAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C31BCEDB7B944FFDBD6CE139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/bin/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include,"/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glew-1.10.0/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C718E0B4B2F74ED0BE5DA3AF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CD7F2FCEA21B4D28B431CD8A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EA808894DD7043DEB64CA344 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0000BEAFA432430FACA8110D /* Build configuration list for PBXNativeTarget "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31BCEDB7B944FFDBD6CE139 /* Debug */,
+				6380F41E4224419AAF7539BE /* Release */,
+				ADA71A803D17467E866A953A /* MinSizeRel */,
+				3D73122CC4EA414DAF9F6606 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0B898E0AE3D24C2BA1C345B8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F6ABA9E80A43E6A213007E /* Debug */,
+				66CD7A57FEE54145976F5187 /* Release */,
+				7CE8179E8F96436297832E0B /* MinSizeRel */,
+				545292C437E94424B5D2B38D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7E3CAE5D8A8E47FAB8EED0A8 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F15312A9604BA5BD41DB48 /* Debug */,
+				B1F26B56F4524C5E977ADAB2 /* Release */,
+				CD7F2FCEA21B4D28B431CD8A /* MinSizeRel */,
+				C718E0B4B2F74ED0BE5DA3AF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		85785F749C354BA99FF288F8 /* Build configuration list for PBXProject "GLEW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9322A8C6DD884FA38D3C87FB /* Debug */,
+				1B787595E5EB463C966464C9 /* Release */,
+				54B2DA4019CA44C89A20892D /* MinSizeRel */,
+				73B9110D1EE444AD830D9F56 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B78247CC6CB5412880F0E5E1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D8063523264750A0ADC79F /* Debug */,
+				67195E9FD4D240FB8D1E0994 /* Release */,
+				AE41A3F6E31E4C4FA8B8BD9C /* MinSizeRel */,
+				EA808894DD7043DEB64CA344 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42D9435BB1294D158C7615D0 /* Project object */;
+}

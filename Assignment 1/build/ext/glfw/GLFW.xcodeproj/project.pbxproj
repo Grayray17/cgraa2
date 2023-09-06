@@ -1,0 +1,1122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		68E4936DD89840448FE296F6 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1FBA0FAFF6F94C699D53B805 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				011E1E6088D1B88FED86F5E2 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A75273A7DB464361B8832B8B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 838C24895F4341EA88B37D34 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				04AC37337282B225629F28CC /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				25C67568617E4E5FA717FB3B /* PBXTargetDependency */,
+				671DE6C6C5B148BF88E66B97 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B9AA84011B80402D93107212 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CF7122C163A0418295FFC80D /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				248C33AB261344D5A7B9CB9A /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D3D936760E834D65963776A7 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F27D86E859DD4B1C81E690D9 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				A7BD809170584C418777613C /* Generate CMakeFiles/uninstall */,
+			);
+			dependencies = (
+				2C33BAEF873F4640B2872C0D /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02239E6097C14B118746A9E8 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 4EFC41879F7E460CA6A81A4A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/monitor.c */; };
+		11606A1F1ED2453AA53EB9C3 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/mach_time.c */ = {isa = PBXBuildFile; fileRef = 18B6D4162FD641AAA387FE6B /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/mach_time.c */; };
+		19BA2BB07DA94D2BB2D38508 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 324C5B22FF9F4E1EA5432798 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_window.m */; };
+		358F61D7E3EB4B0585608FDE /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = D860D4979A0E4509B1387305 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_init.m */; };
+		35E83C936EBF4FC5A4834CF7 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 391B66FFD13A47E08855C597 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include/GLFW/glfw3native.h */; };
+		41772E72B6B4458081183C0B /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = CC81580ECDF840438523074E /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/internal.h */; };
+		5BC735F989A34C76BEF212D0 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D817BE80BCBB49C0833B62E9 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/CMakeLists.txt */; };
+		5CE8B468A38846C8B667FD12 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/iokit_joystick.m */ = {isa = PBXBuildFile; fileRef = DDD37C6F507442FC93A1BD79 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/iokit_joystick.m */; };
+		5EF9540EF0F541F29EDAF2F3 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 02F12F7816AD4EA8945CA7DF /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/init.c */; };
+		64A310A165E448ACBC56ECE8 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = EBD08B9D24A6472D99160DCE /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/context.c */; };
+		6839331C22B9481EB2ABA717 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 747BF07C75B845A3AA3A465A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_platform.h */; };
+		6E07530EE1234995ABEF30C2 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = B5CAD68382EF46628CD47953 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/nsgl_context.h */; };
+		7EA52BB6FDA648AAA48D3D97 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 99BD35A790A545B48E976610 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/posix_tls.h */; };
+		86673C3E998D4AEEA8C3E2A4 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 5CD85433C64A4098951F4842 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include/GLFW/glfw3.h */; };
+		AE22C0FCEC414C97AB1BED7D /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = DB1689C5CC5743E88249570E /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/nsgl_context.m */; };
+		B8CBFBBA440D49019FBDEBEE /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = CD5A4E4FFC344D0DBAE7CBD3 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_monitor.m */; };
+		CDD20311599547698934E85A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = FFF39FF89968494F855DD4E8 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/src/glfw_config.h */; };
+		D527851035FE4423B76DE8EA /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 391049372036419690B84CD5 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/input.c */; };
+		D6D885DF248A4D38B53A0C89 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = A3CE04BA68FB4008B8EACB23 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/posix_tls.c */; };
+		DB285CA6FBEA4802A34C4D7E /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/iokit_joystick.h */ = {isa = PBXBuildFile; fileRef = 8DF0268147844C1F8ADE422D /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/iokit_joystick.h */; };
+		F4D8030B805E463898C54591 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 76E02CF8F4B448A58EA760BF /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/window.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0FF57345A29D45869C83D473 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6A974E4E02DB4FBEA51E5A03 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9F3BBD19662A44918A7044BB /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E836A24AD8C743BFBD2AB499 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0FE302C5D3F648D69DD0F836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A1F64A18CC4684A28046D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCF6EDFA6C04C1CA810B1C5;
+			remoteInfo = glfw;
+		};
+		8BFC0C8CB7F941069DB4756B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A1F64A18CC4684A28046D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75273A7DB464361B8832B8B;
+			remoteInfo = ALL_BUILD;
+		};
+		949822DE9D814DC195EF2089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A1F64A18CC4684A28046D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E4936DD89840448FE296F6;
+			remoteInfo = ZERO_CHECK;
+		};
+		B29575D6243B4834AA034189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A1F64A18CC4684A28046D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E4936DD89840448FE296F6;
+			remoteInfo = ZERO_CHECK;
+		};
+		D36CC7D7D7BB425DA6A5E9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A1F64A18CC4684A28046D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E4936DD89840448FE296F6;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F12F7816AD4EA8945CA7DF /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		18B6D4162FD641AAA387FE6B /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/mach_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mach_time.c; path = src/mach_time.c; sourceTree = SOURCE_ROOT; };
+		324C5B22FF9F4E1EA5432798 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		391049372036419690B84CD5 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		391B66FFD13A47E08855C597 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		3C707AA594D140EF8246B50F /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFC41879F7E460CA6A81A4A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		5CD85433C64A4098951F4842 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		747BF07C75B845A3AA3A465A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		76E02CF8F4B448A58EA760BF /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		864B8AEE676246D2990D119F /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8DF0268147844C1F8ADE422D /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/iokit_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iokit_joystick.h; path = src/iokit_joystick.h; sourceTree = SOURCE_ROOT; };
+		99BD35A790A545B48E976610 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		A3CE04BA68FB4008B8EACB23 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		B5CAD68382EF46628CD47953 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		CC81580ECDF840438523074E /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		CD5A4E4FFC344D0DBAE7CBD3 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		CF2A9A65879B4303BC39C20A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D817BE80BCBB49C0833B62E9 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D860D4979A0E4509B1387305 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		DB1689C5CC5743E88249570E /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		DDD37C6F507442FC93A1BD79 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/iokit_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = iokit_joystick.m; path = src/iokit_joystick.m; sourceTree = SOURCE_ROOT; };
+		EBD08B9D24A6472D99160DCE /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		FFF39FF89968494F855DD4E8 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/src/glfw_config.h; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74F576711EC45559B82F39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25E9ABF62B6E4D1CA4D7BC1B /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				798F8543D76345359271F12A /* CMake Rules */,
+				864B8AEE676246D2990D119F /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		47DCAC436AE74462AA6FE0F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C707AA594D140EF8246B50F /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FA8F20D64BC447B9994DFAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		798F8543D76345359271F12A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9493ED76ACC04011A99DC199 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				A4B158C714CF4A16AB45F5D9 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		A0D04F1C081D46ECBA43674B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A4B158C714CF4A16AB45F5D9 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A7337445D4BF490304D60 /* Source Files */,
+				FCD7B32020A5430E9C7D20AF /* Header Files */,
+				D817BE80BCBB49C0833B62E9 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		AF9EA5526D034182BD177BBE = {
+			isa = PBXGroup;
+			children = (
+				25E9ABF62B6E4D1CA4D7BC1B /* uninstall */,
+				F4CC64B5F15C43DAB1A8CDEE /* ALL_BUILD */,
+				9493ED76ACC04011A99DC199 /* GLFW3 */,
+				47DCAC436AE74462AA6FE0F1 /* Products */,
+				4FA8F20D64BC447B9994DFAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3A7337445D4BF490304D60 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D860D4979A0E4509B1387305 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_init.m */,
+				CD5A4E4FFC344D0DBAE7CBD3 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_monitor.m */,
+				324C5B22FF9F4E1EA5432798 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_window.m */,
+				EBD08B9D24A6472D99160DCE /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/context.c */,
+				02F12F7816AD4EA8945CA7DF /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/init.c */,
+				391049372036419690B84CD5 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/input.c */,
+				DDD37C6F507442FC93A1BD79 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/iokit_joystick.m */,
+				18B6D4162FD641AAA387FE6B /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/mach_time.c */,
+				4EFC41879F7E460CA6A81A4A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/monitor.c */,
+				DB1689C5CC5743E88249570E /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/nsgl_context.m */,
+				A3CE04BA68FB4008B8EACB23 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/posix_tls.c */,
+				76E02CF8F4B448A58EA760BF /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F4CC64B5F15C43DAB1A8CDEE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A0D04F1C081D46ECBA43674B /* CMake Rules */,
+				CF2A9A65879B4303BC39C20A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FCD7B32020A5430E9C7D20AF /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF39FF89968494F855DD4E8 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/src/glfw_config.h */,
+				5CD85433C64A4098951F4842 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include/GLFW/glfw3.h */,
+				391B66FFD13A47E08855C597 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/include/GLFW/glfw3native.h */,
+				747BF07C75B845A3AA3A465A /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_platform.h */,
+				CC81580ECDF840438523074E /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/internal.h */,
+				8DF0268147844C1F8ADE422D /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/iokit_joystick.h */,
+				B5CAD68382EF46628CD47953 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/nsgl_context.h */,
+				99BD35A790A545B48E976610 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBCF6EDFA6C04C1CA810B1C5 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93913FA06FCE417A801E8339 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				C58362A682EA4625BF8F7646 /* Sources */,
+				D74F576711EC45559B82F39B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD85D70DE239437E81561C05 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 3C707AA594D140EF8246B50F /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47A1F64A18CC4684A28046D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 23DEE3286A4B45708E1727DF /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0FF57345A29D45869C83D473 /* Debug */,
+				6A974E4E02DB4FBEA51E5A03 /* Release */,
+				9F3BBD19662A44918A7044BB /* MinSizeRel */,
+				E836A24AD8C743BFBD2AB499 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = AF9EA5526D034182BD177BBE;
+			projectDirPath = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw;
+			projectRoot = "";
+			targets = (
+				A75273A7DB464361B8832B8B /* ALL_BUILD */,
+				68E4936DD89840448FE296F6 /* ZERO_CHECK */,
+				DBCF6EDFA6C04C1CA810B1C5 /* glfw */,
+				B9AA84011B80402D93107212 /* install */,
+				D3D936760E834D65963776A7 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		011E1E6088D1B88FED86F5E2 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  make -f /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  make -f /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  make -f /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  make -f /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		04AC37337282B225629F28CC /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A7BD809170584C418777613C /* Generate CMakeFiles/uninstall */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/uninstall";
+			outputPaths = (
+/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/CMakeFiles/uninstall			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/cmake_uninstall.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C58362A682EA4625BF8F7646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358F61D7E3EB4B0585608FDE /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_init.m */,
+				B8CBFBBA440D49019FBDEBEE /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_monitor.m */,
+				19BA2BB07DA94D2BB2D38508 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/cocoa_window.m */,
+				64A310A165E448ACBC56ECE8 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/context.c */,
+				5EF9540EF0F541F29EDAF2F3 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/init.c */,
+				D527851035FE4423B76DE8EA /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/input.c */,
+				5CE8B468A38846C8B667FD12 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/iokit_joystick.m */,
+				11606A1F1ED2453AA53EB9C3 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/mach_time.c */,
+				02239E6097C14B118746A9E8 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/monitor.c */,
+				AE22C0FCEC414C97AB1BED7D /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/nsgl_context.m */,
+				D6D885DF248A4D38B53A0C89 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/posix_tls.c */,
+				F4D8030B805E463898C54591 /* /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		248C33AB261344D5A7B9CB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75273A7DB464361B8832B8B /* ALL_BUILD */;
+			targetProxy = 8BFC0C8CB7F941069DB4756B /* PBXContainerItemProxy */;
+		};
+		25C67568617E4E5FA717FB3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E4936DD89840448FE296F6 /* ZERO_CHECK */;
+			targetProxy = D36CC7D7D7BB425DA6A5E9E0 /* PBXContainerItemProxy */;
+		};
+		2C33BAEF873F4640B2872C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E4936DD89840448FE296F6 /* ZERO_CHECK */;
+			targetProxy = B29575D6243B4834AA034189 /* PBXContainerItemProxy */;
+		};
+		671DE6C6C5B148BF88E66B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCF6EDFA6C04C1CA810B1C5 /* glfw */;
+			targetProxy = 0FE302C5D3F648D69DD0F836 /* PBXContainerItemProxy */;
+		};
+		FD85D70DE239437E81561C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E4936DD89840448FE296F6 /* ZERO_CHECK */;
+			targetProxy = 949822DE9D814DC195EF2089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D280296B687437B8C0D3E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2DB42247E0394F67B2D4C317 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3F8E00AA0CB14B6AAE6CBC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		43310F4FD2B7466E808E4D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		52937633EDF54F2DA4C29735 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		53950366E31A4319A550274D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src,/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC   -Wall","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5648B0FA34124C9CA3809C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7014450DA42C4E6ABB7FCC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		71F2E0916EE54AF18B1BA49E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src,/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC   -Wall","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8223015094DA4375AB384864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/bin/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src,/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   -fPIC   -Wall","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8CA1AE5AD05D43F1A0B2FFC5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9124E149C7EB42FC81BD1F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		92D488D348F3409A86853F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build;
+			};
+			name = Debug;
+		};
+		B5C0DCE6DF4E478480DA86DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build;
+			};
+			name = Release;
+		};
+		C89CBA58CB9541A4950E3125 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CA2692B809A2451083AF3428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/bin/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/work/ext/glfw/src,/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/ext/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC   -Wall","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CC771F94DF3548FA9DD67B3D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CF289E81DDF642DDA98B40C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D63AA60806D3453C898BF15E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D7A74E55E9174A62B2AC87A7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DFF459106C35462B8194195A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E0CBE01F3B874F1694BFB90C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EF194C837AA040B38E659709 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build;
+			};
+			name = MinSizeRel;
+		};
+		FB06CE106E8942E1834481F7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = /Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FBA0FAFF6F94C699D53B805 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7014450DA42C4E6ABB7FCC49 /* Debug */,
+				3F8E00AA0CB14B6AAE6CBC4A /* Release */,
+				2DB42247E0394F67B2D4C317 /* MinSizeRel */,
+				CC771F94DF3548FA9DD67B3D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		23DEE3286A4B45708E1727DF /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D488D348F3409A86853F1D /* Debug */,
+				B5C0DCE6DF4E478480DA86DE /* Release */,
+				EF194C837AA040B38E659709 /* MinSizeRel */,
+				FB06CE106E8942E1834481F7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		838C24895F4341EA88B37D34 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5648B0FA34124C9CA3809C23 /* Debug */,
+				DFF459106C35462B8194195A /* Release */,
+				8CA1AE5AD05D43F1A0B2FFC5 /* MinSizeRel */,
+				D63AA60806D3453C898BF15E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		93913FA06FCE417A801E8339 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8223015094DA4375AB384864 /* Debug */,
+				CA2692B809A2451083AF3428 /* Release */,
+				53950366E31A4319A550274D /* MinSizeRel */,
+				71F2E0916EE54AF18B1BA49E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CF7122C163A0418295FFC80D /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43310F4FD2B7466E808E4D5B /* Debug */,
+				CF289E81DDF642DDA98B40C7 /* Release */,
+				C89CBA58CB9541A4950E3125 /* MinSizeRel */,
+				52937633EDF54F2DA4C29735 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F27D86E859DD4B1C81E690D9 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D280296B687437B8C0D3E3C /* Debug */,
+				9124E149C7EB42FC81BD1F5F /* Release */,
+				E0CBE01F3B874F1694BFB90C /* MinSizeRel */,
+				D7A74E55E9174A62B2AC87A7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47A1F64A18CC4684A28046D7 /* Project object */;
+}

@@ -1,0 +1,88 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98ae43b8acb844a10952074a5ee06efccd8"
+    },
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98ae841243b4d4260e3831684fa6615cc6c"
+    },
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98a13268b84455454544b07784fd57692b8"
+    },
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98a740e917752d5c7997e673ae33878e95a"
+    },
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98ab1f56e9337fbb71aae1abc311e61bb02"
+    },
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98a28617fbf8224d98e2e7f0d0eded8a405"
+    },
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98a1c74daf68ea2ef33985adb52353418cd"
+    },
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98a4a3faf8e79a2cdad3f72f7affa51d141"
+    },
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98af19707545f7767f9eaa6a58853abcf8e"
+    },
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98aad4529e9214fcc46cde12ac7cb26f4ba"
+    },
+    {
+      "guid" : "62027b32f88152beb60802f4e289b98a706fe443622632f30517baa7029abfb3"
+    }
+  ],
+  "containerPath" : "/Users/gray/Documents/UNI/CGRA350/A2/CGRA350T12019_Framework/build/CGRA_PROJECT_base.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/gray/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/gray/Library/Developer/Xcode/DerivedData/CGRA_PROJECT_base-afijziatuvzbrhdxxckqyozowqfl/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/gray/Library/Developer/Xcode/DerivedData/CGRA_PROJECT_base-afijziatuvzbrhdxxckqyozowqfl/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

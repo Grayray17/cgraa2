@@ -1,0 +1,24 @@
+Target dependency graph (11 targets)
+ZERO_CHECK in CGRA_PROJECT_base, no dependencies
+glm_dummy in CGRA_PROJECT_base, no dependencies
+glfw in CGRA_PROJECT_base, no dependencies
+glew in CGRA_PROJECT_base, no dependencies
+stb in CGRA_PROJECT_base, no dependencies
+imgui in CGRA_PROJECT_base, no dependencies
+base in CGRA_PROJECT_base, depends on:
+glfw in CGRA_PROJECT_base (explicit)
+glew in CGRA_PROJECT_base (explicit)
+stb in CGRA_PROJECT_base (explicit)
+imgui in CGRA_PROJECT_base (explicit)
+ALL_BUILD in CGRA_PROJECT_base, depends on:
+ZERO_CHECK in CGRA_PROJECT_base (explicit)
+glm_dummy in CGRA_PROJECT_base (explicit)
+base in CGRA_PROJECT_base (explicit)
+glfw in CGRA_PROJECT_base (explicit)
+glew in CGRA_PROJECT_base (explicit)
+stb in CGRA_PROJECT_base (explicit)
+imgui in CGRA_PROJECT_base (explicit)
+install in CGRA_PROJECT_base, depends on:
+ALL_BUILD in CGRA_PROJECT_base (explicit)
+res in CGRA_PROJECT_base, no dependencies
+uninstall in CGRA_PROJECT_base, no dependencies
